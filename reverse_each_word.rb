@@ -1,8 +1,8 @@
 def reverse_each_word(text)
   sentence = []
   text.split.each do |word|
-    puts word.reverse
-   
+    new_w = word.reverse
+    puts sentence
   end
   sentence
 end
