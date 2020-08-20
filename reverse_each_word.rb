@@ -3,8 +3,8 @@ def reverse_each_word(text)
   text.split.each do |word|
     sentence.push(word.reverse)
   end
-  sentence
+  sentence.join
 end
 
 string = "Hello, this is a test"
-puts reverse_each_word(string).inspect
+puts reverse_each_word(string)
