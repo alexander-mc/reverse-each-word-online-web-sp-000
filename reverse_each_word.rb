@@ -1,5 +1,5 @@
 def reverse_each_word(text)
-  sentence = []
+  sentence = ["A"]
   text.split.each do |word|
     new_w = word.reverse
     puts sentence
