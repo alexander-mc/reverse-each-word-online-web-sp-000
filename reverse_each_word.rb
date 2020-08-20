@@ -10,7 +10,6 @@ end
 
 def reverse_each_word(text)
   text.split.map {|word| word.reverse}
-  sentence.join(" ")
 end
 
 string = "Hello, this is a test"
