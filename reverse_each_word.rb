@@ -3,6 +3,7 @@ def reverse_each_word(text)
   text.split.each do |word|
     sentence = sentence.reverse.push(word)
   end
+  sentence
 end
 
 string = "Hello, this is a test"
