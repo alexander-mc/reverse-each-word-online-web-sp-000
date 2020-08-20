@@ -1,6 +1,8 @@
 def reverse_each_word(text)
-
+  text.split.each do |word|
+    puts word.reverse
+  end
 end
 
 string = "Hello, this is a test"
-puts string.split.inspect
+reverse_each_word(string)
