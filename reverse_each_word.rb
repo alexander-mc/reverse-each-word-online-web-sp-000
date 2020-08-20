@@ -6,4 +6,4 @@ def reverse_each_word(text)
 end
 
 string = "Hello, this is a test"
-puts reverse_each_word(string)
+puts reverse_each_word(string).inspect
