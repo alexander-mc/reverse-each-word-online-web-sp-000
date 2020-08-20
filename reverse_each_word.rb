@@ -9,7 +9,7 @@ end
 =end
 
 def reverse_each_word(text)
-  text.split.map{|word| word.reverse}.join(" ")
+  text.split.collect{|word| word.reverse}.join(" ")
 end
 
 string = "Hello, this is a test"
